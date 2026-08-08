@@ -40,9 +40,6 @@ const Statistics = (props) => {
           <td>{positivePercentage} %</td>
         </tr>
       </table>
-      <p>all {props.feedback.good + props.feedback.neutral + props.feedback.bad}</p>
-      <p>average {average}</p>
-      <p>percentage {positivePercentage} %</p>
     </div>
   )
 }
